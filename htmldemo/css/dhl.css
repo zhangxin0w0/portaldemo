@@ -1,0 +1,125 @@
+
+/*通用样式*/
+body{
+    background-color: #F6F6F6;
+    margin: 0;
+}
+div{
+    /*border: 1px salmon solid;*/
+}
+a{
+    text-decoration: none;
+}
+
+#con-f,#con-s,#con-t{
+    float: left;
+}
+#con-fo{
+    float: right;
+}
+
+#wk{
+    background-color: white;
+    height: 60px;
+}
+
+/*第一部分，logo*/
+#con-f{
+    margin-left: 200px;
+}
+
+
+/*第二部分*/
+#con-s{
+    margin-left: 30px;
+}
+#home{
+    color: black;
+    border-bottom: 2px #0074E1 solid;
+    height: 60px;
+    width: 35px;
+}
+.cons-a{
+    color: #A7AFC1;
+    height: 60px;
+    width: 70px;
+    margin-right: 10px;
+}
+#con-s a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*text-align: center;*/
+    float: left;
+}
+
+/*第三部分,搜索框*/
+#con-t{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+#con-t input{
+    height: 35px;
+    width: 290px;
+    border: 1px #EBEBEB solid;
+    border-radius: 5px;
+    padding-left: 10px;
+    float: left;
+    margin-right: 30px;
+    outline: none;
+}
+#con-t a{
+    background-color: #0084FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 55px;
+    border-radius: 5px;
+    color: white;
+    /*text-align: center;*/
+    float: left;
+}
+
+
+/*第四部分*/
+#con-fo{
+    margin-right: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#con-fo div{
+    height: 25px;
+    width: 25px;
+    /*background-color: #A7AFC1;*/
+    float: left;
+    margin-right: 30px;
+}
+#con-fo img{
+    height: 100%;
+    width: 100%;
+}
+#con-fo-d{
+    position: relative;
+}
+#con-fo-y{
+    height: 16px !important;
+    width: 16px !important;
+    background-color: red;
+    border-radius: 8px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: -4px;
+    right: -33px;
+    outline: white solid thick;
+}
+
