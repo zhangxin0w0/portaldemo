@@ -1,0 +1,92 @@
+#wk{
+    height: 200px;
+    width: 700px;
+    /*border: 1px salmon solid;*/
+    margin: auto;
+    margin-top: 50px;
+}
+
+/*第一部分*/
+#div-t{
+    display: flex;
+}
+#div-t input{
+    height: 25px;
+    width: 400px;
+    border: 2px #E2231A solid;
+    padding-left: 15px;
+    float: left;
+}
+
+#divt-d{
+    height: 31px;
+    width: 480px;
+    position: relative;
+}
+#divt-d a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30.5px;
+    width: 50px;
+    background-color: #E2231A;
+    float: left;
+}
+#divt-d a img{
+    height: 18px;
+    width: 20px;
+}
+#divt-d div{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 5px;
+    right: 80px;
+}
+#divt-d div img{
+    height: 100%;
+    width: 100%;
+}
+#divt-b{
+    border: 1px #EEEEEE solid;
+    height: 30.5px;
+    width: 100px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#divt-b div{
+    height: 15px;
+    width: 18px;
+    position: relative;
+}
+#divt-b div img{
+    height: 100%;
+    width: 100%;
+}
+#divt-b div div{
+    height: 13px;
+    width: 18px;
+    border-radius: 10px;
+    background-color: #E2231A;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: -6px;
+    right: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*第二部分*/
+#div-f{
+    font-size: 11px;
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+}
+#div-f a{
+    color: #999999;
+}
