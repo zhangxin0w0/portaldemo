@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>标签基础演示</title>
+    <link rel="stylesheet" href="css/index.css">
     <style>
         body{
             /*border: 1px salmon solid;*/
+            margin: 0;
         }
         #div2{
             border: 1px black solid;
@@ -24,6 +26,35 @@
         table{
             /*border: 1px seagreen solid;*/
             color: saddlebrown;
+        }
+        #dd{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #div4{
+            height: 100px;
+            width: 100px;
+            border: 2px seagreen solid;
+            background-color: #E2231A;
+            margin-top: -20px;
+        }
+        #div4 div{
+            height: 30px;
+            width: 30px;
+            background-color: black;
+        }
+        #div5{
+            /*height: 10px;*/
+            width: 0;
+            /*background-color: #E2231A;*/
+            border-top: 100px yellow solid;
+            border-right: 100px transparent solid;
+            border-bottom: 100px transparent solid;
+            border-left: 100px transparent solid;
         }
     </style>
 </head>
@@ -85,35 +116,46 @@
     <!--<input type="submit" value="登录">-->
 <!--</form>-->
 
-<table border="1" cellspacing="0">
-    <tr align="center">
-        <th rowspan="2">序号</th>
-        <th rowspan="2">姓名</th>
-        <th colspan="5">日期</th>
-        <!--<th>日期</th>-->
-        <!--<th>日期</th>-->
-        <!--<th>日期</th>-->
-        <!--<th>日期</th>-->
-    </tr>
-    <tr align="center">
-        <!--<th>序号</th>-->
-        <!--<th>姓名</th>-->
-        <th>星期一</th>
-        <th>星期二</th>
-        <th>星期三</th>
-        <th>星期四</th>
-        <th>星期五</th>
-    </tr>
-    <tr align="center">
-        <td>1</td>
-        <td>张鑫</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-    </tr>
-</table>
+<!--<table border="1" cellspacing="0">-->
+    <!--<tr align="center">-->
+        <!--<th rowspan="2">序号</th>-->
+        <!--<th rowspan="2">姓名</th>-->
+        <!--<th colspan="5">日期</th>-->
+        <!--&lt;!&ndash;<th>日期</th>&ndash;&gt;-->
+        <!--&lt;!&ndash;<th>日期</th>&ndash;&gt;-->
+        <!--&lt;!&ndash;<th>日期</th>&ndash;&gt;-->
+        <!--&lt;!&ndash;<th>日期</th>&ndash;&gt;-->
+    <!--</tr>-->
+    <!--<tr align="center">-->
+        <!--&lt;!&ndash;<th>序号</th>&ndash;&gt;-->
+        <!--&lt;!&ndash;<th>姓名</th>&ndash;&gt;-->
+        <!--<th>星期一</th>-->
+        <!--<th>星期二</th>-->
+        <!--<th>星期三</th>-->
+        <!--<th>星期四</th>-->
+        <!--<th>星期五</th>-->
+    <!--</tr>-->
+    <!--<tr align="center">-->
+        <!--<td>1</td>-->
+        <!--<td>张鑫</td>-->
+        <!--<td>0</td>-->
+        <!--<td>0</td>-->
+        <!--<td>0</td>-->
+        <!--<td>0</td>-->
+        <!--<td>0</td>-->
+    <!--</tr>-->
+<!--</table>-->
 
+<!--<div id="dd">-->
+    <!--<a href="">盒子</a>-->
+<!--</div>-->
+
+<!--<div id="div4">-->
+    <!--<div></div>-->
+<!--</div>-->
+
+<div id="div5">
+
+</div>
 </body>
 </html>

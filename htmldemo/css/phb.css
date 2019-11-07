@@ -1,0 +1,162 @@
+/*最外层容器*/
+#wk{
+    width: 700px;
+    margin: auto;
+    /*border: 1px salmon solid;*/
+}
+
+/*标题*/
+#phb-title{
+    width: 100%;
+    height: 35px;
+    /*background-color: #0074E1;*/
+}
+/*左部分标题*/
+#pt-f{
+    float: left;
+    margin: 0;
+    font-weight:normal;
+    margin-right: 30px;
+}
+/*左部分副标题*/
+#pt-s{
+    float: left;
+}
+/*设置文字样式*/
+#pt-s,#pt-t{
+    color: #666666;
+    font-size: 12px;
+    margin-top: 15px;
+}
+/*右部分*/
+#pt-t{
+    float: right;
+}
+/*右部分里特殊颜色文本*/
+#pt-t span{
+    color: #c20c0c;
+}
+/*中间分割层*/
+#xx{
+    height: 4px;
+    width: 100%;
+    background-color: #c20c0c;
+}
+
+/*内容*/
+#phb-content{
+    width: 100%;
+    height: 300px;
+    /*background-color: bisque;*/
+}
+/*表格样式*/
+#phb-content table{
+    border: 1px solid #d9d9d9;
+    width: 100%;
+}
+/*表头样式*/
+.tth{
+    border-bottom: 1px #DEDEDE solid;
+    border-right: 1px #DEDEDE solid;
+    height: 38px;
+    background-color: #f7f7f7;
+    text-align: left;
+    font-weight: normal;
+    padding-left: 10px;
+    font-size: 12px;
+    color: #666666;
+}
+/*表行样式*/
+.tt{
+    background-color: #F7F7F7;
+}
+/*表行中的单元格样式*/
+.tt td{
+    padding: 12px 10px;
+}
+/*特殊表行样式*/
+#tt2{
+    background-color: white;
+}
+/*特殊表行中单元格样式*/
+#tt2 td{
+    padding: 5px 10px;
+}
+
+/*第一列*/
+.tt-text{
+    font-size: 10px;
+    color: #999;
+}
+.tt-span2{
+    font-size: 0.5em;
+    color: #358B3E;
+    margin-left: 10px;
+}
+
+/*第二列*/
+.tt-fl{
+    display: flex;
+    align-items: center;
+}
+.ttfl-d{
+    margin-right: 15px;
+}
+
+/*图片大小*/
+.td-img{
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+}
+.td-img img{
+    height: 100%;
+    width: 100%;
+}
+.td-a{
+    display: block;
+    height: 18px;
+    width: 20px;
+    border: 1px #E3E3E3 solid;
+    border-radius: 5px;
+}
+.td-a img{
+    height: 100%;
+    width: 100%;
+}
+
+/*文本大小*/
+.tt-text2{
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+/*链接伪类处理*/
+.tt-text2 a:link{
+    color: black;
+}
+.tt-text2 a:visited{
+    color: black;
+}
+.tt-text2 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.tt-text2 a:active{
+    color: black;
+}
+
+/*控制单元格宽度*/
+.pt2{
+    width: 10%;
+}
+.pt3{
+    width: 40%;
+}
+.pt4{
+    width: 10%;
+}
+.pt5{
+     width: 20%;
+ }
+
