@@ -123,6 +123,6 @@ a{
     position: absolute;
     top: -4px;
     right: -33px;
-    outline: white solid thick;
+    outline: fuchsia groove thick;
 }
 
